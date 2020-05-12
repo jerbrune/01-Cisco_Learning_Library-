@@ -1,0 +1,4 @@
+Name       OS Type    IP address        user name         password   
+-------------------------------------------------------------------
+Dev1       IOS_XE     10.1.1.1          cisco             cisco      
+Dev2       NX-OS      20.1.1.1          Admin             C1sc0123   
