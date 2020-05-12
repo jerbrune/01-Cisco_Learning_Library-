@@ -1,0 +1,6 @@
+['dev1', 'IOS_XE', '10.1.1.1', 'cisco', 'cisco']
+['dev2', 'NXOS', '20.1.1.1', 'Admin', 'C1sc0123']
+Name       OS Type    IP address        user name         password   
+-------------------------------------------------------------------
+dev1       IOS_XE     10.1.1.1          cisco             cisco      
+dev2       NXOS       20.1.1.1          Admin             C1sc0123   
