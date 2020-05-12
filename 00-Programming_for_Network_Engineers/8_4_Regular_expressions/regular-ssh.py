@@ -11,15 +11,13 @@ ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 ssh_client.connect(hostname='ios-xe-mgmt.cisco.com',username='developer', password='C1sco12345',port='8181')
 stdin, stdout, stderr = ssh_client.exec_command('show version')
 ip_route_table = stdout.readlines()
-print(ip_route_table)
+file=""
 for i in ip_route_table:
-    version = version_pattern.search(i)
-    version_string = version.group(2)
-    if version != False:
-        print(version)
-    
+    file+= i
+version = version_pattern.search(file)
+version_string = version.group(0)
 
-   
+print(version_string)
 
 ssh_client.close()
 
