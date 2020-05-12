@@ -1,3 +1,5 @@
-import pexect
+import paramiko
 
-session=pexpect.spawn()
+ssh_client = paramiko.SSHClient()
+
+
