@@ -2,7 +2,7 @@ import re
 import paramiko
 
 version_pattern = re.compile('Version ([0-9]*\.[0-9]*\.[0-9])')
-file=open('show_version.txt','r')
+file=open('showVersion.txt','r')
 
 show_version=file.read()
 print(show_version)
