@@ -18,7 +18,7 @@ class NetworkDevice:
 
 def print_device_info(devices_list):
     print('{0:11}{1:11}{2:18}{3:18}{4:11}'.format("Name","OS Type","IP address", 'user name','password'))
-    print("-"*67)
+    print("-"*66)
     for device in devices_list:
         print('{0:11}{1:11}{2:18}{3:18}{4:11}'.format(device.name,device.os_type,device.ip_addr,device.user_name,device.password))
 
